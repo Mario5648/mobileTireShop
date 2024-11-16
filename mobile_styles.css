@@ -1,0 +1,479 @@
+@media (max-width: 1000px) {
+    body
+    {
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+
+    .heroContainer
+    {
+        width: 100%;
+    }
+
+    .pricingContactUsButtonHero
+    {
+        background-color: #e51b35;
+        color: #fff;
+        border-style: none;
+        padding: 20px;
+        font-size: 25px;
+        border-radius: 16px;
+
+        width: 200px;
+
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        animation: bounce 2.0s infinite alternate;
+    }
+
+    @keyframes bounce {
+        to { transform: scale(1.2) translate(-50%, -50%);}
+      }
+    .backgroundImage
+    {
+        display: none;
+    }
+
+    .navBarContainter
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        background-color: #0c191f;
+        color: white;
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .mobileMenu
+    {
+        display: block;
+    }
+
+    .desktopMenu
+    {
+        display: none;
+    }
+
+    .mobileMenuOptions
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; 
+    }
+
+    .mobileMenuOptionsContainer
+    {
+
+        display: none;
+        
+        background-color: #0c191f;
+        color: #fff; 
+
+        padding: 30px;
+    }
+
+    .mobileMenuOptionsContainer a
+    {
+        color: #fff;
+        text-decoration: none;
+
+        padding: 10px;
+
+        font-size: 20px;
+    }
+
+    .heroContentSection
+    {
+        padding-top: 50px;
+        background-image: url('t3.png');
+
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+
+        height: 700px;
+    }
+
+    .centeredHeroTitleText 
+    {
+        font-size: 50px;
+        padding: 30px;
+        color: #fff;
+    }
+
+    .centeredHeroText
+    {
+        padding: 30px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .logoImageHero
+    {
+        width: 100px;
+        clip-path: circle();
+    }
+
+
+    .halfContainer
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        height: max-content;
+
+        max-width: 900px;
+        width: 100%;
+
+    }
+
+    .leftSection
+    {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .rightSection
+    {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .normalSectionImage
+    {
+        padding: 30px;
+        width: 80%;
+    }
+
+    .sectionSubtext
+    {
+        font-size: 16px;
+        color: #e51b35;
+    }
+
+    .sectionTitleText
+    {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .orangeText
+    {
+        color: #e51b35;
+    }
+
+    .boldText
+    {
+        font-weight: 700;
+    }
+
+    .fullContainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: max-content;
+
+
+    }
+
+    .fullContainerContentSection
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width: 100%;
+        
+    }
+
+    .pricingBox
+    {
+        background-color: #f6f6f6;
+        border-radius: 16px;
+
+        margin-bottom: 30px;
+
+        padding: 30px;
+
+        width: 80%;
+    }
+
+    .priceText
+    {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .pricingContactUsButton
+    {
+        background-color: #e51b35;
+        color: #fff;
+        border-style: none;
+
+        border-radius: 16px;
+        height: 30px;
+
+        width: 150px
+    }
+
+    .faqBox
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        border-top: #e51b35;
+        border-bottom: #e51b35;
+
+        border-style: solid;
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+    }
+
+    .faqBox:hover
+    {
+        cursor: pointer;
+        background-color: #e51b35;
+        color: #fff;
+    }
+
+    .normalButton
+    {
+        background-color: #e51b35;
+        color: #fff;
+        border-style: none;
+
+        border-radius: 16px;
+
+        width: 150px;
+        height: 30px;
+        cursor: pointer;
+
+    }
+
+    .normalButton:hover
+    {
+        background-color: #fff;
+        color: #e51b35;
+    }
+
+    .contactForm
+    {
+        width: max-content;
+        background-color: #0c191f;
+
+        border-radius: 16px;
+
+        color:white;
+
+        padding: 30px;
+
+    }
+    .contactInputMessage
+    {
+        resize: none;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .formField
+    {
+        width: 200px;
+
+        padding: 10px;
+    }
+
+    .selectorField
+    {
+        width: 225px;
+        padding: 10px;
+    }
+
+    /* Book */
+    .book {
+        position: relative;
+        width:60%;
+        height: 240px;
+        transition: transform 0.5s;
+    }
+
+    .paper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        perspective: 1500px;
+
+    }
+
+    .front,
+    .back {
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform-origin: left;
+        transition: transform 0.5s;
+    }
+
+    .front {
+        z-index: 1;
+        backface-visibility: hidden;
+    }
+
+    .back {
+        z-index: 0;
+    }
+
+    .front-content,
+    .back-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .back-content {
+        transform: rotateY(180deg)
+    }
+
+    /* Paper flip effect */
+    .flipped .front,
+    .flipped .back {
+        transform: rotateY(-180deg);
+    }
+
+    /* Controller Buttons */
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin: 10px;
+        transition: transform 0.5s;
+    }
+
+
+    /* Paper stack order */
+    #p1 {
+        z-index: 3;
+    }
+
+    #p2 {
+        z-index: 2;
+    }
+
+    #p3 {
+        z-index: 1;
+    }
+
+    .pageImage
+    {
+        width: 100%;
+    }
+
+    .greyButtons
+    {
+        background-color: #D8D8D8;
+        color: #0c191f;
+        border-style: none;
+
+        border-radius: 16px;
+
+        width: 100px;
+        cursor: pointer;
+
+    }
+
+    .greyButtons:hover
+    {
+        background-color: #0c191f;
+        color: #f6f6f6;
+    }
+
+    .footerContainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        background-color: #0c191f;
+        color: #fff;
+
+        width: 100%;
+
+    }
+
+    .footerContents
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+
+        max-width: 1000px;
+        width: 100%;
+
+    }
+
+    .footerContents a
+    {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .footerRight, .footerLeft
+    {
+        width: 200px;
+    }
+
+    .mobile_padding
+    {
+        height: 100px;
+    }
+    
+    .mobile_padding_footer
+    {
+        height: 150px;
+    }
+
+    .hideMobile
+    { 
+        display: none;
+    }
+}

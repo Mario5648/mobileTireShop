@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tire Ambulance</title>
+    <link rel="stylesheet" href="desktop_styles.css">
+    <link rel="stylesheet" href="mobile_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
+    <script src="api_calls.js"></script>
+    <link rel="icon" type="image/x-icon" href="./tirelogowb.ico">
+
+</head>
+<body>
+
+    <!-- Hero -->
+    <div class="heroContainer">
+        <img class="backgroundImage" src="t5.png" />
+        <div class="navBarContainter">
+            <img class="logoImageHero" src="tirelogowb.png" />
+            <div class="desktopMenu">
+                <a href="#whyus">Why Us</a>
+                <a href="#contactUs">Contact</a>
+                <a href="#aboutus">About Us</a>
+                <!--<a href="#contactUs">Projects</a>-->
+            </div>
+
+            <div class="mobileMenu">
+                <div class="topnav">
+                    <a href="javascript:void(0);" onclick="renderMobileMenu()"><i class="fa fa-bars active" style="color:white;font-size: 50px;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="myLinks" class="mobileMenuOptionsContainer hideDesktop">
+            <div class="mobileMenuOptions">
+                <a href="#whyus">Why Us</a>
+                <a href="#contactus">Contact</a>
+                <a href="#aboutus">About Us</a>
+                <!--<a href="#contactUs">Projects</a>-->
+            </div>
+        </div>
+        <span class="hideMobile">
+            <div class="centeredHeroTitleText">Always Rolling, Wherever You Are</div>
+            <div class="centeredHeroText">Get Your Tires Serviced On-the-Go with Our Mobile Tire Experts — Fast, Reliable, and Right to Your Doorstep!</div>
+            <a href="#contactUs"><button class="pricingContactUsButtonHero">Get Help Now</button></a>
+        </span>
+        <div class="heroContentSection hideDesktop">
+            <div class="centeredHeroTitleText">Always Rolling, Wherever You Are</div>
+            <div class="centeredHeroText">Get Your Tires Serviced On-the-Go with Our Mobile Tire Experts — Fast, Reliable, and Right to Your Doorstep!</div>
+            <a href="#contactUs"><button class="pricingContactUsButtonHero">Get Help Now</button></a>
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+
+    <!--About-->
+    <div class="halfContainer" id="aboutus">
+        <div class="leftSection">
+            <p class="sectionSubtext">We are the Best</p>
+            <p class="sectionTitleText">About Us</p>
+            <p>At Tire Ambulance, we bring the tire shop to your doorstep. Based in Houston, our mobile service is designed to deliver quick, reliable tire solutions wherever you are—home, office, or on the road. Established to cater to the bustling urban life of Houstonians, we ensure your tire needs are met with the highest standards of convenience and professionalism. Trust us to keep your vehicle moving safely and efficiently with minimal disruption to your day.</p>
+        </div>
+
+        <div clas="rightSection">
+            <img class="normalSectionImage" src="./about.jpg">
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+
+    <!--Why us-->
+    <div class="halfContainer" id="whyus">
+        <div clas="leftSection">
+            <img class="normalSectionImage" src="./why.jpg">
+        </div>
+        <div class="rightSection">
+            <p class="sectionSubtext">Best Choice</p>
+            <p class="sectionTitleText">Why Choose Us</p>
+            <p class="boldText"><i class="fa fa-check orangeText"></i> Convenience at Your Fingertips</p>
+            <p>No need to rearrange your schedule or wait in line at a tire shop. Our fully equipped mobile service comes to you, whether you're at home, work, or stranded roadside, saving you time and hassle.</p>
+            <p class="boldText"><i class="fa fa-check orangeText"></i> Expert Care with Precision</p>
+            <p>Our team of skilled technicians is equipped with the latest in tire technology and follows stringent industry standards to ensure your vehicle receives the best service possible, enhancing your driving safety and comfort.</p>
+            <p class="boldText"><i class="fa fa-check orangeText"></i> Exceptional Customer Service</p>
+            <p>We pride ourselves on transparency and customer satisfaction. From the initial call to the service completion, expect a seamless experience with no hidden fees and straightforward communication.</p>    
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+
+    <!--pricing-->
+    <div class="fullContainer" id="pricing">
+        <div class="fullContainerTitleSection">
+            <p style="padding-left: 20px;" class="sectionSubtext">The Right Price</p>
+            <p style="padding-left: 20px;" class="sectionTitleText">Service Pricing</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="fullContainerContentSection">
+            <div class="pricingBox">
+                <p class="priceText">$20</p>
+                <br>
+                <p class="boldText">Basic Plan</p>
+                <br>
+                <p><i class="fa fa-check orangeText"></i> Tire Inspection (Including Spare)</p>
+                <p><i class="fa fa-check orangeText"></i> Tires Topped Off (Including Spare)</p>
+                <p><i class="fa fa-check orangeText"></i> Fluid Top Off</p>
+                <p><i class="fa fa-check orangeText"></i> Time and Location at your Convenience</p>
+                <p><i class="fa fa-check orangeText"></i> Detailed Tire Health Breakdown</p>
+                <br>
+                <br>
+                <br>
+                <a href="#contactUs"><button class="pricingContactUsButton">Contact Us</button></a>
+            </div>
+            <div class="pricingBox" style="background-color: #0a2230; color:white;">
+                <p class="priceText">$85 + Tires</p>
+                <br>
+                <p class="boldText">Core Plan</p>
+                <p>New Tire Warranty</p>
+                <br>
+                <p><i class="fa fa-check orangeText"></i> Tire Replacement (Changed + Balanced)</p>
+                <p><i class="fa fa-check orangeText"></i> Tire Disposal</p>
+                <p><i class="fa fa-check orangeText"></i> Fluid Top Off</p>
+                <p><i class="fa fa-check orangeText"></i> Tire Inspection (Including Spare)</p>
+                <p><i class="fa fa-check orangeText"></i> Time and Location at your Convenience</p>
+                <br>
+                <br>
+                <br>
+                <a href="#contactUs"><button class="pricingContactUsButton">Contact Us</button></a>
+            </div>
+            <div class="pricingBox">
+                <p class="priceText">$95 + Tires</p>
+                <br>
+                <p class="boldText">Emergency Plan</p>
+                <p>New Tire Warranty</p>
+                <br>
+                <p><i class="fa fa-check orangeText"></i> Install Spare or Replace Tire</p>
+                <p><i class="fa fa-check orangeText"></i> Fluid Top Off</p>
+                <p><i class="fa fa-check orangeText"></i> Tire Inspection (Including Spare)</p>
+                <p><i class="fa fa-check orangeText"></i> Tire Disposal</p>
+                <p><i class="fa fa-check orangeText"></i> We Meet You ASAP</p>
+                <br>
+                <br>
+                <br>
+                <a href="#contactUs"><button class="pricingContactUsButton">Contact Us</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+    <!--FAQ-->
+    <div class="halfContainer">
+        <div class="leftSection">
+            <p class="sectionSubtext">Actuals</p>
+            <p class="sectionTitleText">FAQs</p>
+            <div class="faqBox" onclick="generateFaqAnswer(1)" id="faqBox1">
+                <p>What services do you offer?</p>
+                <p>+</p>
+            </div>
+            <div class="faqBoxAnswer" id="faqBoxAnswer1"></div>
+            <div class="faqBox" onclick="generateFaqAnswer(2)" id="faqBox2">
+                <p>How quickly can you arrive for a service call?</p>
+                <p>+</p>
+            </div>
+            <div class="faqBoxAnswer" id="faqBoxAnswer2"></div>
+            <div class="faqBox" onclick="generateFaqAnswer(3)" id="faqBox3">
+                <p>Do you service all types of vehicles?</p>
+                <p>+</p>
+            </div>
+            <div class="faqBoxAnswer" id="faqBoxAnswer3"></div>
+            <div class="faqBox" onclick="generateFaqAnswer(4)" id="faqBox4">
+                <p>What are your operating hours?</p>
+                <p>+</p>
+            </div>
+            <div class="faqBoxAnswer" id="faqBoxAnswer4"></div>
+        </div>
+
+        <div clas="rightSection">
+            <img class="normalSectionImage" src="./faq.jpg">
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+
+    <!--Contact Us-->
+    <div class="halfContainer" id="contactUs">
+        <div class="leftSection">
+            <p class="sectionSubtext">We Are Here</p>
+            <p class="sectionTitleText">Contact Us</p>
+            <p>Email : mario8002@yahoo.net</p>
+            <p>Phone Number : (832) 570-8833</p>
+        </div>
+
+        <div clas="rightSection">
+            <div class="contactForm">
+                <label for="clientName">Name:</label><br><br>
+                <input class="formField" type="text" id="clientName" name="clientName" placeholder="John Doe"></input>
+                <br>
+                <br>
+                <br>
+                <label for="clientEmail">Email:</label><br><br>
+                <input class="formField" type="text" id="clientEmail" name="clientEmail" placeholder="john@apartments.com"></input>
+                <br>
+                <br>
+                <br>
+                <label for="clientReason">Reason:</label><br><br>
+                <select class="selectorField" id="clientReason" name="clientReason">
+                    <option value="requestInfo">Request More Information</option>
+                    <option value="scheduleMeeting">Schedule Meeting</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="clientMessage">Message:</label><br><br>
+                <textarea id="clientMessage" name="clientMessage" rows="8" cols="35" class="contactInputMessage"></textarea>
+                <br>
+                <br>
+                <br>
+                <button id="sendMessageButton" class="normalButton" onclick="sendMessageOnClick()">Send Message</button>                
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile_padding_footer"></div>
+
+    <!-- footer -->
+    <div class="footerContainer">
+        <div class="footerContents">
+            <div class="footerRight">
+                <p class="boldText">Quick Links</p>
+                <a href="#whyus"><p>Why Us</p></a>
+                <a href="#contactUs"><p>Contact</p></a>
+                <a href="#aboutus"><p>About Us</p></a>
+                <!--<a href="#contactUs"><p>Projects</p></a>-->
+            </div>
+
+            <div class="footerLeft">
+                <p class="boldText">Social Media</p>
+                <!--<a href="https://www.instagram.com/mremodeling_painting/?hl=en"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD00lEQVR4nO1ZS08UQRCeAyqGh+ARrioYD+LrphJvEhPRX2CMyB9QQc88rgTDUYJ/wEfiSUBFb+hdQC+661VRcGCqJvKZ7q5ZB93Z7Zmd2V2TrWSTzUx31VfT9W7HaVCDak/wvB4wj4JoEcwrIPoJZqTyM7xWQLQA5hF43pH0FWA+DaIXqYG2V24RzKcqVwDYA6IZEO0I469gfgDPu6xPB2hJ5UsZWS2ap+cNgnlWZCmZOyC6D6ApKeNOEL0UZi6IxgC0pwXcQn47iMZBtFU4HaAjyUkEpvRFmVZmiMthIToO5k+izGsAe+NsnhElcnDdrkyR2uBx3S4w50WZ6TiOvSPmdMKpEwLRSW1mRL/Uf5sNxqSIxpw6IxBNCLYFmzxholMVHbsg3/cviU/m4fsD/7wHDoDom8boeYejGalkZ3xjNmvQEfLzoTySi1gzJ+/vRDMyWVVpO5gl4IoU8byrYjXzpRitiSKJywPJP9fB/BTMq7r0MOXHKpif6HdAZ9G9vj8gyuTg+xdLmj/zajQIog29CGhLoMB+MN8D0XeL0mMdzHcBNCeQ0yY8NqIXiaBEcZ7oXQjocxANBWWMlB+9+hnRfGjd2yR5CuVwJlFEklUuOG4wn7UAcq5gxgmSLtJWRJtTcBJEr+LUQuJLS7J3OY6ZIXVFlE+YPSuxC7pAmT8nM1oTReSLBo5d1pxKyOwvBAAUj2bZKmJCrHbsGLhL5y+ia9VXROUEI/xGDMzFeRHdFNmPaqFIkDx7YmAuzkuF5nJJLkPT2pTk2WqzviQvoFVOd/N/V6RdFPlhtb5hWqWdfcipkMA8XDtnp0L4jS6nLUnmVzUKvyYhrsue8zFw7+bj+xdCCbGj1iXKmm1WLlKifCjb8VWhaGzWpbj5oktxlAFwEERv6qJoLFLGq6/b79iZ08e6KeP/aqyWQw2Tqp2G4XlHdbJTP/VfPQscOziJTBorqqjVbZYrh3XLVncEwL6sWt21FIYPHSqMgvmx3HdsShWwop+pdwl6l7jDh5qOg2woNA6Kbh/0cddwQGdDYH4oGG/V7ci0HFmPTP8qF8adOiMQTVp3perOTq4VtqzG91UimOuObblW6LPbpO7sjB3m4brdmaMsh8d1u0MXPVP2G4GmUOJSY/4zmSIthYWoD8yfC4k27qWo5IPAX5SZTShnywxxccee1OYk7ULi/CMnM63t0jBTEWMOnndFDwxSaHNDslQZ0yt5Yq4QnYxPTCW+nt4lhOgYiJ6VLT3S/hEtZBJwVOxWfYNM1E35kR5oxeu9nuQz38b29qHUFWhQg5zY9BvL6osF8D3vmwAAAABJRU5ErkJggg=="></a>-->
+            </div>
+        </div>
+        <br>
+        <br>
+        <p>Developed by Mantis Software LLC</p>
+    </div>
+</body>
+</html>
