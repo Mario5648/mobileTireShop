@@ -1,7 +1,7 @@
 const faqQuestionAnswerMap = 
 {
     1:"We offer a comprehensive range of tire services, including tire installation, repair, rotation, and seasonal swaps. We can handle everything from simple punctures to complete replacements, all at your preferred location.",
-    2:"We strive to offer prompt service, typically arriving within an hour in the Houston area, depending on your location and our current schedule. For emergency services, we prioritize rapid response to get you back on the road as quickly as possible.",
+    2:"We strive to offer prompt service, typically arriving within an hour in the San Antonio area, depending on your location and our current schedule. For emergency services, we prioritize rapid response to get you back on the road as quickly as possible.",
     3:"Yes, our technicians are equipped to handle a wide variety of vehicles, including passenger cars, SUVs, and light trucks. For specific requirements or commercial vehicle services, please contact us directly to discuss your needs.",
     4:"We operate seven days a week, from 8:00 AM to 8:00 PM. For services outside of these hours, including emergency assistance, please call our hotline for availability.",
 
